@@ -3,3 +3,6 @@ bin/
 obj/
 packages/
 tools/loc/
+*.user
+*.suo
+Deployed/
