@@ -140,8 +140,11 @@
   <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)*" "$(ProjectDir)Deployed\Pages\System.Web.Optimization.Test.HostedTests\bin"
-copy "$(TargetDir)*" "$(ProjectDir)Deployed\Pages\System.Web.Optimization.Test.CustomOutputCacheTest\bin"
+    <PostBuildEvent>mkdir "$(ProjectDir)Deployed\Pages\System.Web.Optimization.Test.HostedTests\bin"
+copy "$(TargetDir)*" "$(ProjectDir)Deployed\Pages\System.Web.Optimization.Test.HostedTests\bin"
+mkdir "$(ProjectDir)Deployed\Pages\System.Web.Optimization.Test.CustomOutputCacheTest\bin"
+copy "$(TargetDir)*" "$(ProjectDir)Deployed\Pages\System.Web.Optimization.Test.CustomOutputCacheTest\bin""
+mkdir "$(ProjectDir)Deployed\Pages\System.Web.Optimization.Test.DebugTests\bin"
 copy "$(TargetDir)*" "$(ProjectDir)Deployed\Pages\System.Web.Optimization.Test.DebugTests\bin"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
