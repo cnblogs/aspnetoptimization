@@ -11,7 +11,7 @@
         MVC Template CSS: <link href="/app/Content/themes/base/css?v=UM624qf1uFt8dYtiIV9PCmYhsyeewBIwY4Ob0i8OdW81" rel="stylesheet"/>
 <link href="/app/Content/css?v=oI5uNwN5NWmYrn8EXEybCIbINNBbTM_DnIdXDUL5RwE1" rel="stylesheet"/>
 <br />
-        MVC Mobile CSS: <link href="/app/Content/mobileCss?v=RoOK5abYu-Q0Gj0TF0LkYjk9c8tQ0wTE7YOOGSid3ek1" rel="stylesheet"/>
+        MVC Mobile CSS: <link href="/app/Content/mobileCss?v=wcBAbHwUR7PsTU3azG8_R_3Blbjm2qey2sKrF01Emko1" rel="stylesheet"/>
 <br />
         CDN CSS: <link href="http://ajaxasp.net/4.5/5/jqueryBundle.css" rel="stylesheet"/>
 <br />
