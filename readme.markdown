@@ -1,2 +1,0 @@
-# Microsoft ASP.NET Web Optimization
-At present, the Web optimization framework code is not public and therefore will not be published on this site. However, we are planning to change that, and as soon as we are able, the code will be published in this repository. In the meantime, the site will be used as a single point for tracking issues, hosting discussions, and providing links to documentation.
